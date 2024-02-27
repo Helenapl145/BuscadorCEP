@@ -1,2 +1,2 @@
 # BuscadorCEP
- Projeto feito para aperfeiçoamento do conhecimento em React.js
+ Projeto feito usando React.js com API para desenvolver uma aplicação para a busca do CEP.

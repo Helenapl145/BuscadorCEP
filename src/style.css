@@ -1,0 +1,100 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(#121212, #131a2e);
+}
+
+.title{
+    font-size: 4rem;
+    color: white;
+
+    animation: flipTitle 2s;
+}
+
+.containerInput{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 2rem;
+    color: white; 
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: #f1f1f1;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.5s;
+}
+
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px 0;
+    font-size: 3rem;
+}
+
+.main span{
+    margin-bottom: 16px;
+
+}
+
+@media (max-width: 650px) {
+    .title{
+        font-size: 3rem;
+    }
+
+    .main {
+        width: 90vw;
+    }
+
+    .main h2{
+        font-size: 26px;
+    }
+}
+
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
