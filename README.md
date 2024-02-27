@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto cardápio" src=".../public/preview.png">
+  <img alt="projeto buscador de CEP" src="/public/preview.png">
 </p>
 
 ## 🚀 Tecnologias
