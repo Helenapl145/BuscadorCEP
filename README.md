@@ -37,7 +37,7 @@ Essa aplicação foi feita utilizando da API ViaCEP para obter as informações 
 além disso foi realizado tratamento de erro e o uso propriedades do React.js como o useState, funcões assíncronas e componentes.
 
 
-- [Acessar o site](https://helenapl145.github.io/BuscadorCEP/)
+- [Acessar o site](https://buscador-cep.vercel.app/)
 
 
 ## :memo: Licença
